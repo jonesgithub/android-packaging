@@ -1,9 +1,11 @@
 # Android-packaging
 Android 打包工具
 
-感谢 [美团打包][1]分享
-[1]:http://tech.meituan.com/mt-apk-packaging.html
+感谢 [美团打包分享][1]
 
+推荐[android gradle][2]
+[1]:http://tech.meituan.com/mt-apk-packaging.html
+[2]:http://feelyou.info/make_apk_with_gradle/
 ##对比
 ###Maven
     打包一次就要执行一遍构建过程、效率低下
