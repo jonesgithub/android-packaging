@@ -1,13 +1,13 @@
 # Android-packaging
 Android 打包工具
 
-感谢 [美团打包]{http://tech.meituan.com/mt-apk-packaging.html}分享
-
+感谢 [参考美团打包][1]分享
+[1]:http://tech.meituan.com/mt-apk-packaging.html
 使用方法：
 - clone 到本地
 - 编辑channels.txt文件,输入相关渠道
 
-```cmd
+```python
   # python pack.py APK路径 输出目录  
   # 例如：
   python pack.py ./gengmei.apk gengmei
