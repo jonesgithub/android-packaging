@@ -3,7 +3,7 @@ Android 打包工具
 
 感谢 [美团打包分享][1]
 
-推荐[android gradle][2]
+推荐 [android gradle][2]
 [1]:http://tech.meituan.com/mt-apk-packaging.html
 [2]:http://feelyou.info/make_apk_with_gradle/
 ##对比
