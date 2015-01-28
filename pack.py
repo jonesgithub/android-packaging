@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+# !/usr/bin/env python
 # encoding=utf-8
 __author__ = 'jie'
 
@@ -24,9 +24,8 @@ for channel in channels_file:
     channel_apk_path = os.path.join(out_path, channel_apk_name)
     shutil.copy2(apk_path, channel_apk_path)
     zipped = zipfile.ZipFile(channel_apk_path, 'a', zipfile.ZIP_DEFLATED)
-    empty_channel_file = "META-INF/gmchannel_{}".format(channel)
+    empty_channel_file = "META-INF/gmchannel_{}".format(channel.strip())
     zipped.writestr(empty_channel_file, '')
     zipped.close()
-
 
 
